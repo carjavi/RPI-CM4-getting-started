@@ -35,7 +35,7 @@ sudo apt-get update && sudo apt-get dist-upgrade -y
 <br>
 
 > :memo: **Note:** 
-l USB Port esta desabilitado por default para ahorrar energia. para habilitarlo
+El USB Port esta desabilitado por default para ahorrar energia. para habilitarlo
 se edita el config.txt y agregar:
 ```
 sudo nano /boot/config.txt
