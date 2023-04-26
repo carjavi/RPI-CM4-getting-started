@@ -1,11 +1,14 @@
 
-<p align="center"><img src="./img/rpicm4.webp" height="200" alt=" " /></p>
+<p align="center"><img src="./img/rpicm4.webp" height="250" alt=" " /></p>
 <h1 align="center">Raspberry Pi Compute Module 4 RPI CM4 Getting Started</h1> 
 <h4 align="right">May 23</h4>
 
+<img src="https://img.shields.io/badge/Hardware-Raspberry%20ver%204-red">
 <img src="https://img.shields.io/badge/OS%20-Raspbian%20GNU%2FLinux%2010%20(buster)-yellowgreen">
+<img src="https://img.shields.io/badge/OS%20-Raspbian%20GNU%2FLinux%2011%20(bulleye)-yellowgreen">
 
 <br>
+
 # Flashing RPi CM4 with eMMC on Windows 
 
 > :warning: **Warning:** No funciona para RPi CM4 lite (no posee el eMMC), tiene otro procedimiento.
