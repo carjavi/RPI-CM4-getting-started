@@ -17,8 +17,8 @@ no se necesita una SD-ext en la placa base (se usa el eMMC).
 ## Pasos
 
 1. Ponemos el swich Boot en On para que arranque desde USB (debe ser un OTG cable) 
-2. Conectamos al PC (en Control Panel/System/Device encontraremos un dispositivo BCM2711 Boot)
-3. Correr [rpiboot.exe](https://www.mediafire.com/file/bo6gg4sxd9rkk95/Rpiboot_setup.zip/file) como administrator (esto flashea la eMMC del modulo)
+2. Conectamos al PC (en Control Panel/System/bluetooth & Devices/ Devices encontraremos un dispositivo BCM2711 Boot, en Windows 11)
+3. Corre ```rpiboot``` si lo tienes instalado en tu Notebook, sino descarga desde aqui -->[rpiboot.exe](https://www.mediafire.com/file/bo6gg4sxd9rkk95/Rpiboot_setup.zip/file) debes correrlo como administrator (esto flashea la eMMC del modulo)
 4. Se abre el [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
 	* Seleccionar Storage: eMMC RPi-MSD-0001 - 31.3GB
 	* Choose OS/Erase FAT32 
