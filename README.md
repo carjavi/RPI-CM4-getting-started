@@ -21,13 +21,29 @@ no se necesita una SD-ext en la placa base (se usa el eMMC).
 3. Corre ```rpiboot``` si lo tienes instalado en tu Notebook, sino descarga desde aqui -->[rpiboot.exe](https://www.mediafire.com/file/bo6gg4sxd9rkk95/Rpiboot_setup.zip/file) debes correrlo como administrator (esto flashea la eMMC del modulo)
 4. Se abre el [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
 	* Seleccionar Storage: eMMC RPi-MSD-0001 - 31.3GB
-	* Choose OS/Erase FAT32 
-	* Habilitamos SSH, SSID-PASSWORD, VNC
+	* Habilitamos SSH, SSID-PASSWORD, VNC (antes de salvar y escribir en eMMC)
 	* Escribimos OS
 5. Al terminar de instalar OS cerramos RaspberryPi-Imager y quitamos cable USB
 6. Pasamos el swith BOOT a off (para que inicie desde la eMMC) 
 7. Ready!
-8. Update & Upgrade
+
+# Encontrar la dirección IP Raspberry Pi
+Podemos probar varias opciones:
+
+* Intentar conectar usando raspberrypi.local. Probar con ping raspberrypi.local.
+* Buscar la IP del dispositivo accediendo a la configuración del Router.
+* Usar un programa de escáner de IPs en la red como, por ejemplo:
+  * IP Scan: https://www.mediafire.com/file/lzxseb45ej9mr97/ipscan.rar/file (Windows)
+  * IP Scanner: https://www.advanced-ip-scanner.com/es/ (Windows)
+  Fing (Android)
+
+💡 Tip: Desde el shell de Windows (funciona en redes pequeñas):
+```
+arp -a
+```
+lista las IP activas. Solo se muestra las IP y no su Hostname
+
+# Update & Upgrade
 
 ```
 sudo apt-get update && sudo apt-get dist-upgrade -y
