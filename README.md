@@ -9,6 +9,11 @@
 
 <br>
 
+# RPI CM4
+<p align="center"><img src="./img/CM4_1" height="250" alt=" " /></p>
+<p align="center"><img src="./img/CM4_2" height="250" alt=" " /></p>
+
+
 # Flashing RPi CM4 with eMMC on Windows 
 
 > :warning: **Warning:** No funciona para RPi CM4 lite (no posee el eMMC), tiene otro procedimiento.
