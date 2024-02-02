@@ -10,8 +10,8 @@
 <br>
 
 # RPI CM4
-<p align="center"><img src="./img/CM4_1" height="250" alt=" " /></p>
-<p align="center"><img src="./img/CM4_2" height="250" alt=" " /></p>
+<p align="center"><img src="./img/CM4_1.png" height="200" alt=" " /></p>
+<p align="center"><img src="./img/CM4_2.png" height="550" alt=" " /></p>
 
 
 # Flashing RPi CM4 with eMMC on Windows 
@@ -22,10 +22,15 @@ no se necesita una SD-ext en la placa base (se usa el eMMC).
 ## Pasos
 
 1. Ponemos el swich Boot en On para que arranque desde USB (debe ser un OTG cable) 
-2. Conectamos al PC (en Control Panel/System/bluetooth & Devices/ Devices encontraremos un dispositivo BCM2711 Boot, en Windows 11)
-3. Corre ```rpiboot``` si lo tienes instalado en tu Notebook, sino descarga desde aqui -->[rpiboot.exe](https://www.mediafire.com/file/bo6gg4sxd9rkk95/Rpiboot_setup.zip/file) debes correrlo como administrator (esto flashea la eMMC del modulo)
+2. Conectamos al PC (en Control Panel/System/bluetooth & Devices/ Devices encontraremos un dispositivo BCM2711 Boot, en Windows 11).
+3. Instalar driver para la eMMC ```rpiboot```. Corre ```rpiboot``` desde el menu inicio de Windows si lo tienes instalado en tu Notebook, sino descarga desde aqui -->[rpiboot.exe](https://www.mediafire.com/file/bo6gg4sxd9rkk95/Rpiboot_setup.zip/file).
+
+> :warning: **Warning:** Debes correrlo como administrator para instalar el driver. <br>
+> :warning: **Warning:** Cada vez que se necesite tener acceso a la eMMC para instalar un OS o leer la SD se debe correr  la App desde el menu de inicio de Windows, este detectara la eMMC y pedira formatearla, solo asi el ```Raspberry Pi Imager``` podra detectar la unidad eMMC.
+
+
 4. Se abre el [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
-	* Seleccionar Storage: eMMC RPi-MSD-0001 - 31.3GB
+	* Seleccionar Storage: eMMC RPi-MSD-0001 - XXGB
 	* Habilitamos SSH, SSID-PASSWORD, VNC (antes de salvar y escribir en eMMC)
 	* Escribimos OS
 5. Al terminar de instalar OS cerramos RaspberryPi-Imager y quitamos cable USB
