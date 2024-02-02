@@ -31,7 +31,7 @@ no se necesita una SD-ext en la placa base (se usa el eMMC).
 
 4. Se abre el [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
 	* Seleccionar Storage: eMMC RPi-MSD-0001 - XXGB
-	* Habilitamos SSH, SSID-PASSWORD, VNC (antes de salvar y escribir en eMMC)
+	* Habilitamos SSH, SSID-PASSWORD, VNC (con ```CTRL + Shift + X``` se abre el menú Advanced options, antes de salvar y escribir en eMMC)
 	* Escribimos OS
 5. Al terminar de instalar OS cerramos RaspberryPi-Imager y quitamos cable USB
 6. Pasamos el swith BOOT a off (para que inicie desde la eMMC) 
@@ -92,6 +92,28 @@ https://www.raspberrypi.com/software/operating-systems/
 
 wiki
 https://www.waveshare.com/wiki/CM4-DUAL-ETH-MINI
+
+<br>
+
+# Mini Base Board (A) For Compute Module 4
+### Onboard Multiple Connectors Including CSI/DSI/FAN/HDMI/USB/RJ45 Gigabit Ethernet/Micro SD Card Slot/M.2 Slot
+
+<p align="center">
+    <img src="./img/CM4-IO-BASE-A-details-1.jpg" height="300" alt="www.instintodigital.net">
+    <img src="./img/CM4-IO-BASE-A-details-2.jpg" height="300" alt="www.instintodigital.net">
+    <img src="./img/CM4-IO-BASE-A-details-3.jpg" height="270" alt="www.instintodigital.net">
+    <img src="./img/CM4-IO-BASE-A-details-4.jpg" height="300" alt="www.instintodigital.net">
+    <img src="./img/CM4-IO-BASE-A-details-5.jpg" height="270" alt="www.instintodigital.net">
+    <img src="./img/CM4-IO-BASE-A-details-intro.jpg" height="300" alt="www.instintodigital.net">
+    <img src="./img/CM4-IO-BASE-A-details-intro1.jpg" height="450" alt="www.instintodigital.net">
+</p>
+
+WIKI:www.waveshare.com/wiki/CM4-IO-BASE-A
+
+```Tech-support``` <br>
+Wiki: https://youyeetoo.com/blog/<br>
+Forum: bbs.youyeetoo.com<br>
+ExpertSupport: support@smartfire.cn<br>
 
 <br>
 
